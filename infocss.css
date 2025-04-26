@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+}
+
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-left: 2px;
+    color: #ff7200;
+}
+
+.margintop{
+    margin-top: 20px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.ul{
+    display: flex;
+}
+
+.ul li{
+    list-style-type: none;
+}
+
+.ul li a{
+    text-decoration: none;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 30px; */ 
+    justify-content: center;
+    align-items: center;
+}
+
+.ul li a:hover{
+    color: #ff7200;
+    transition-duration: 1s;
+    text-decoration: underline;
+}
+
+.content{
+    margin-top: 3%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.maincontent{
+    display: block;
+    margin: 6;
+    margin-top: 10%;
+}
+
+.login{
+    /* background-color: black; */
+    /* background-color: transparent; */
+    /* margin-left: 6%; */
+    /* padding: 0px;  */
+    /* opacity: 1; */
+    color:white;
+    font-family: Arial;
+    padding: 6%;
+    margin-top: 1%;
+    /* opacity: 1; */
+    /* z-index: -1; */
+}
+
+#login{
+    background-color: black;
+    /* background-blend-mode:saturation; */
+    opacity: 0.7;
+    margin-left: 8%;
+    margin-top: 6%;
+    font-family: Arial;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+/* .wordopacity{
+    opacity: 1;
+} */
+
+.white{
+    color: white;
+}
+
+.icon{
+    /* opacity: 1; */
+    cursor: pointer;
+}
+
+.btn{
+    color: white;
+    background-color: violet;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 6px;
+    width: 31%;
+    cursor: pointer;
+}
+
+/* .aeroplane{
+    animation: plane;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes plane{
+    from{
+        transform: translateY(500px);
+    }
+    to{
+        transform: translateY(-500px);
+    }
+} */
+
+
+/* ------------------------------CONTACT US--------------------------- */
+
+
+.contact{
+    /* background-color: white; */
+    text-align: center;
+    display: flex;
+    width: 37%;
+    /* margin-left: 2%; */
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+    /* margin-top: 1%; */
+    box-shadow: 2px 4px 4px 2px black;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.input{
+    border-radius: 20px;
+    width: 12px;
+    height: 12;
+    border: 1px solid black;
+    font-family: Arial;
+    padding: 16px;
+    /* background-color: rgb(211, 205, 205); */
+}
+
+.contactbtn{
+    width: 60px;
+    padding: 4px;
+    background-color: hotpink;
+    border-radius: 20px;
+}
+
+.mover{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .aero{
+    animation: plane 6s linear infinite alternate-reverse;
+    margin-top: 16%;
+}
+
+@keyframes plane{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(1080px);
+    }
+    25%{
+        transform: translateX(300px);
+    }
+    50%{
+        transform: translateY(400px);
+    }
+    75%{
+        transform: translateX(-300px);
+    }
+
+} */
+
+/* --------------------------Serivce us-------------------------- */
+
+
